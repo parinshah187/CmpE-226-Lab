@@ -1,0 +1,19 @@
+NoSQL vs Relational Database
+
+Advantages of NoSQL Database:
+1. NoSQL Database store Semi-structured or unstructured schema. So, no need to be specific about attributes while entering the data.
+2. There are no joins in NoSQL Database, so computational overhead is relatively lower.
+
+Disadvantages of NoSQL Database:
+1. Performance is relatively lower if structured data is used with NoSQL Database.
+2. Performance is relatively lower if there is no attribute available to index records.
+
+Advantages of Relational Database:
+1. Used widely and performs efficiently if the data being used is structured.
+2. There are various variants available on storage aspect like row-based, columnar database, etc...
+3. Performance is relatively high if data is structured
+
+
+Disadvantages of Relational Database:
+1. Relational Database have structured data. So, the user has to be specific while defining schema and the records must be inserted accordingly.
+2. If there are multiple tables, then joins may deteriorate performance.
