@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>CMPE-226 Database Systems</title>
+<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.css">
+</head>
+
+<body>
+	<img src="assets/img/database.jpg" class="span2">
+	<a href="#"></a>
+	</img>
+	<div class="container">
+		<h1>
+			<a href="#"> CMPE-226 Database Systems </a>
+		</h1>
+		<div class="navbar">
+			<div class="navbar-inner">
+				<div class="container">
+					<ul class="nav">
+						<li class="active span2"><a href="#"> CMPE226.com </li>
+						<li class="span6"><input type="text" id="searchbar"
+							class="form-control span6" placeholder="Search"></li>
+						<li class="span1">
+							<button type="submit" class="add-on" onclick="search()">
+								<img
+									src="http://www.clker.com/cliparts/Q/l/L/B/F/a/search-icon-md.png"
+									width="20">
+							</button>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div>
+		<ul class="nav nav-list span3">
+			<li class="nav-header">What we sell?</li>
+			<li class="active"><a href="#"> Electronics </a></li>
+			<li><a href="#"> Home Appliances </a></li>
+			<li><a href="#"> Fashion </a></li>
+			<li><a href="#"> Books </a></li>
+
+			<li class="nav-header">Join Us</li>
+			<li><a href="#">Google+</a></li>
+			<li><a href="#">Facebook</a></li>
+			<li><a href="#">Twitter</a></li>
+			<li><a href="#">Pinterest</a></li>
+			<li><a href="#">My Space</a></li>
+
+		</ul>
+	</div>
+
+	<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+	<script src="assets/js/bootstrap.js"></script>
+	<script type="text/javascript">
+	function search(){
+		var a = document.getElementById("searchbar").value;
+		if(a!=""){
+			window.location="http://localhost:8080/CmpE-226-Lab/rest/users/query/"+a;
+		}
+	}
+	</script>
+</body>
+
+</html>
