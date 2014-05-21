@@ -10,7 +10,7 @@ Steps to create database in mongodb:
 3. db.adminCommand( { setParameter: true, textSearchEnabled : true}) 
 4. db.createCollection("products")
 5. db.products.ensureIndex({name : "text", description: "text"})
-6. After that insert all the records by the commands written in population_script file.
+6. After that, insert all the records by the commands written in population_script file.
 
 Steps to run the project:
 
